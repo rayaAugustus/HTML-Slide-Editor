@@ -22,3 +22,4 @@ button, label { font: inherit; }
 .inspector button { border: 0; border-radius: 8px; padding: 8px 10px; background: #ef4444; color: white; cursor: pointer; }
 .inspector button:disabled { background: #d1d5db; cursor: not-allowed; }
 .inspector pre { max-height: 66vh; overflow: auto; padding: 12px; border-radius: 10px; background: #0f172a; color: #d1e7ff; font-size: 11px; }
+.resize-handle { position: absolute; right: -7px; bottom: -7px; width: 14px; height: 14px; border: 2px solid #ffffff; border-radius: 999px; background: #2563eb; box-shadow: 0 2px 6px rgba(15, 23, 42, .25); cursor: nwse-resize; padding: 0; z-index: 9999; }
